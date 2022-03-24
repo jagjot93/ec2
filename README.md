@@ -58,3 +58,7 @@ Import successful!
 
 The resources that were imported are shown above. These resources are now in
 your Terraform state and will henceforth be managed by Terraform.
+
+
+
+**After importing, if we destroy using terraform, it would destory the instance, the netwokr interface, the VPC and the subnet itself. Hence, manually terminated the instance**
