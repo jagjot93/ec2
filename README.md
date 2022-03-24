@@ -11,9 +11,9 @@ is 1.1.7. You can update by downloading from https://www.terraform.io/downloads.
 
 
 
-**The Key pair 'terraform' was manually created using the console and only passed in the 'ec2.tf' file.
+**The Key pair 'terraform' was manually created using the console and only passed in the 'ec2.tf' file.**
 
-**We have imported the VPC and subnet into the terraform using the commands below:
+**We have imported the VPC and subnet into the terraform using the commands below:**
 
 [root@ip-172-31-16-187 terraform]# terraform init
 
