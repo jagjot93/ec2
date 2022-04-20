@@ -34,6 +34,9 @@ If you ever set or change modules or backend configuration for Terraform,
 rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 [root@ip-172-31-16-187 terraform]#
+
+
+
 [root@ip-172-31-16-187 terraform]# terraform import aws_vpc.main vpc-0202c5688c5675d39
 aws_vpc.main: Importing from ID "vpc-0202c5688c5675d39"...
 aws_vpc.main: Import prepared!
@@ -46,6 +49,8 @@ The resources that were imported are shown above. These resources are now in
 your Terraform state and will henceforth be managed by Terraform.
 
 [root@ip-172-31-16-187 terraform]#
+
+
 
 
 [root@ip-172-31-16-187 terraform]# terraform import aws_subnet.subnet1 subnet-0efc6817d03adb31f
